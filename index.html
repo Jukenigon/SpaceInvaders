@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Space Invaders</title>
+		<style>
+			body
+			{
+				background-color: #000;
+			}
+			video#bgvid
+			 {
+				position: fixed; 
+				left: 0;
+				right: 0;
+				bottom: 0;
+				max-width: 100%;
+				min-width: 100%;
+				min-height: 100%;
+				z-index: -100;
+				background-size: cover;
+			}
+		</style>
+		</head>
+	<body>		
+		<div id="bloc">
+			<div class="background">
+				<video autoplay loop id="bgvid">
+					<source src="Video/spaceinvaders.mp4" height="10" type="video/mp4">
+				</video>
+			</div>
+		</div>
+	</body>
+</html>
